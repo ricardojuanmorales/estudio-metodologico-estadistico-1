@@ -9,6 +9,10 @@
 ![Pedagogía](https://img.shields.io/badge/fundamento%20pedag%C3%B3gico-Marco%20Mundi-orange)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-lightgrey)
 
+### Navegación rápida
+
+[Qué es EME](#-qué-es-eme) · [Estado actual](#-estado-actual-del-proyecto) · [Fundamentos](#-fundamentos-del-proyecto) · [Documentación](#-documentos-fundacionales-visibles) · [Arquitectura](#️-estructura-general-del-repositorio) · [Roadmap](#️-hoja-de-ruta) · [Cómo comenzar](#-cómo-comenzar) · [Licencia](#-licencia)
+
 ---
 
 ## ✨ Qué es EME
@@ -38,7 +42,7 @@ Su propósito es servir a públicos escolares, universitarios, docentes, investi
 | Marco metodológico M1 v1.0.0 | ✅ Aprobado e incorporado |
 | Marco Mundi v1.0.0 | ✅ Incorporado |
 | Gobernanza inicial y trazabilidad | ✅ Iniciadas |
-| Productos educativos/aplicaciones específicas | ⏳ En desarrollo |
+| Productos educativos/aplicaciones específicas | ⏳ Por definir y desarrollar |
 | Evaluación de madurez N1–N4 | ⏳ Pendiente |
 
 > **Estado público actual:** este repositorio ya tiene una base real de trabajo, pero todavía se encuentra en **fase inicial activa**.
@@ -69,7 +73,7 @@ EME se apoya actualmente en **tres pilares principales**:
 Marco metodológico canónico aprobado del proyecto EME.
 
 ### 2) Fundamento pedagógico longitudinal
-**Marco Mundi v1.0.0**  
+**Marco Mundi v1.0.0**, incorporado como referencia; su ratificación institucional no está acreditada.  
 Aporta una base transdisciplinaria y una lógica de **transferencia simétrica reversible (TSR)**.
 
 ### 3) Arquitectura operativa
@@ -94,7 +98,16 @@ EME inicia con una activación triádica, proporcional y gobernada humanamente:
 
 ## 🗂️ Estructura general del repositorio
 
-El proyecto utiliza la macroestructura del **Framework v5.2**, organizada en **23 cartapacios principales**.
+El proyecto utiliza la macroestructura del **Framework v5.2**, organizada en **23 cartapacios principales**. Los directorios representan capacidad organizativa, **no productos terminados**.
+
+| Área | Acceso |
+|---|---|
+| Fundamentos | [01 · Filosofía y marcos](./01_FUNDAMENTO_FILOSOFICO/) |
+| Metodología | [03 · Flujo de trabajo](./03_METODOLOGIA_Y_FLUJO_DE_TRABAJO/) |
+| Gobernanza | [04 · Ética y riesgos](./04_GOBERNANZA_ETICA_Y_RIESGOS/) |
+| Investigación | [13 · Evidencia](./13_INVESTIGACION_Y_EVIDENCIA/) |
+| Calidad | [15 · Evaluación](./15_EVALUACION_CALIDAD_Y_AUDITORIA/) |
+| Documentación | [18 · Bitácoras y continuidad](./18_DOCUMENTACION_ACTIVA/) |
 
 <details>
 <summary><strong>Ver estructura principal</strong></summary>
@@ -158,11 +171,11 @@ flowchart TD
 
 En esta etapa, la base pública del proyecto incluye:
 
-- **Marco Metodológico M1 v1.0.0**
-- **Marco Mundi v1.0.0**
-- **Ficha de Activación START**
-- **Acta de Aprobación y Trazabilidad de M1**
-- **Bitácora de sesión inicial**
+- [**Marco Metodológico M1 v1.0.0**, canon aprobado](./03_METODOLOGIA_Y_FLUJO_DE_TRABAJO/Marco_Metodologico_M1_EME_v1.0.0_CANONICO.md)
+- [**Marco Mundi v1.0.0**, fundamento pedagógico](./01_FUNDAMENTO_FILOSOFICO/Marcos_Referencia/Marco_Mundi_Canonico_v1.0.0.md)
+- [**Ficha de Activación START**, autorización de perfiles PH, IT y AT](./03_METODOLOGIA_Y_FLUJO_DE_TRABAJO/Entrada_Normalizada_Usuarios/2026-10-14_Ficha_Activacion_START_EME_PH_IT_AT_v0_1.md)
+- [**Acta de Aprobación y Trazabilidad de M1**](./04_GOBERNANZA_ETICA_Y_RIESGOS/Decisiones/Acta_Aprobacion_y_Trazabilidad_M1_v1.0.0.md)
+- [**Bitácora de sesión inicial**](./18_DOCUMENTACION_ACTIVA/Cierres_Reportes/Bitacoras/Bitacora_Sesion_EME_M1_2026-10-14.md)
 
 > Los documentos fuente originales en Word y PDF **se mantienen fuera de esta primera línea base pública**.
 
@@ -192,15 +205,30 @@ Este proyecto se guía por los siguientes principios:
 
 ---
 
-## 🚀 Qué sigue
+## 🗺️ Hoja de ruta
 
-La siguiente etapa del proyecto se enfocará en:
+Esta hoja de ruta distingue **hitos comprobados** de **trabajo previsto**. No constituye un calendario comprometido.
 
-- consolidar la documentación pública básica;
-- definir la gobernanza operativa mínima;
-- estructurar el plan de sesiones de trabajo;
-- preparar criterios de calidad y contribución;
-- y comenzar el desarrollo progresivo del ecosistema EME.
+| Etapa | Entregable esperado | Estado |
+|---|---|---|
+| 0. Fundación | Estructura máxima y activación START v5.2 | ✅ Completada |
+| 1. Línea base | M1, Marco Mundi, ficha START, acta y bitácora en Git | ✅ Publicada |
+| 2. Presentación pública | README inicial y navegación documental | ✅ Disponible |
+| 3. Planificación operativa | Primer problema de investigación/educación y alcance del primer producto | ⏳ Pendiente |
+| 4. Prototipo verificable | Primer recurso, experiencia o aplicación con evidencia de prueba | ⏳ Pendiente |
+| 5. Evaluación progresiva | Calidad, accesibilidad, ética y madurez N1–N4 | ⏳ Pendiente |
+
+**N4 es una aspiración, no un nivel alcanzado.** Los avances futuros requerirán evidencias y revisión humana.
+
+---
+
+## 🚀 Cómo comenzar
+
+**Si visitas el proyecto por primera vez:** lee esta presentación y sigue los enlaces de la sección documental para comprender el punto de partida.
+
+**Si vas a colaborar o investigar:** revisa [M1 v1.0.0](./03_METODOLOGIA_Y_FLUJO_DE_TRABAJO/Marco_Metodologico_M1_EME_v1.0.0_CANONICO.md), el [Marco Mundi](./01_FUNDAMENTO_FILOSOFICO/Marcos_Referencia/Marco_Mundi_Canonico_v1.0.0.md) y la [ficha START](./03_METODOLOGIA_Y_FLUJO_DE_TRABAJO/Entrada_Normalizada_Usuarios/2026-10-14_Ficha_Activacion_START_EME_PH_IT_AT_v0_1.md). Son materiales de referencia y de gobernanza, no instrucciones para desplegar una aplicación terminada.
+
+**Si deseas seguir el desarrollo:** consulta el [historial de cambios](../../commits/main) y las [incidencias del repositorio](../../issues), si están habilitadas. Las políticas formales de contribución aún no se han establecido.
 
 ---
 
